@@ -4,12 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Resources:
 [Creating a new React App](https://reactjs.org/docs/create-a-new-react-app.html)
+[How to install nvm on WSL](https://gist.github.com/d2s/372b5943bce17b964a79)
+
 
 ```
 npx create-react-app my-app
 cd my-app
 npm start
 ```
+
 
 
 ## Available Scripts
