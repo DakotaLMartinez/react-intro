@@ -2,21 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Assignment from './Assignment';
+import Comments from './Comments';
 
 function App() {
+  console.log('rendering App')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
         <Assignment details="Learn more about React" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Comments header="View Comments" />
       </header>
     </div>
   );
